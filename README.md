@@ -4,6 +4,6 @@ Created by [Ansh Bhargava](https://www.linkedin.com/in/anshbhargava/), [Nikhil G
 
 ### Objective
 Classify 'Motor Vehicle Collisions' from the [NYC Open Data Collective](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) as 'fatal/nonfatal'. 
-Select, preprocess, and encode features (spatial coordinates, vehicle type code, weather, time) to train gradient-boosted decision trees, LTSM networks, and deterministic statistical models and carry out classification/inference. 
+Select, preprocess, and encode features (spatial coordinates, vehicle type code, weather, time) to train gradient-boosted decision trees, LSTM networks, and deterministic statistical models and carry out classification/inference. 
 ### Additional Data Sources
 Utilized the Weather Query Builder from [Visual Crossing](https://www.visualcrossing.com/weather/weather-data-services) to join weather data with collision data by the time of the collision. This enabled us to analyze how various weather conditions may have potentially influenced the severity of the collision.
